@@ -1,0 +1,130 @@
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.row {
+  display: flex;
+}
+
+
+.column {
+  flex: 50%;
+}
+
+.text-padding {
+  /* padding-top: 100px; */
+  padding-left: 200px;
+
+}
+
+.text-padding-p {
+  padding-top: 100px;
+  padding-right: 200px;
+
+}
+
+/* .img-padding {
+  padding-top: 50px;
+  padding-left: 200px;
+
+} */
+
+
+table {
+  width: 75% !important;
+  border-collapse: separate;
+  align-items: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-spacing: 15px 20px !important;
+}
+
+td{
+  font-size: 20px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  margin-left: 0 !important;
+  width: fit-content !important;
+  height: fit-content !important;
+}
+
+th{
+  font-size: 20px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  margin-left: 0 !important;
+  width: fit-content !important;
+  height: fit-content !important;
+}
+
+
+
+.eventblur{
+  height:auto!important;
+  display:inline-block!important;
+  position:relative!important;
+  transition:.3s!important;
+  margin:4px!important;
+}
+
+.eventblur img{
+  width:100%!important;
+  height:100%!important;
+  transition:.3s!important;
+  border-radius:20px!important;
+}
+
+.eventblur:hover img{
+  filter:blur(2px) brightness(60%)!important;
+}
+ 
+.eventblur :not(img){
+  position:absolute!important;
+  z-index:1!important;
+  top:30%;
+  width:100%!important;
+  text-align:center;
+  color:#fff!important;
+  opacity:0!important;
+  transition:.3s!important;
+}
+
+.eventblur h3{
+  top:20%;
+  font-weight: 300px;
+}
+
+.eventblur h2{
+  top: 10% !important;
+  font-weight: 300px;
+}
+
+.eventblur p{
+  top: 40% !important;
+  font-weight: 300;
+}
+
+.eventblur:hover :not(img){
+  opacity:1 !important;
+}
+
