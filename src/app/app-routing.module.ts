@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { TeamComponent } from './team/team.component';
+import { ClubEventComponent } from './club-event/club-event.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path:'team', component: TeamComponent},
   {path:'register', component: RegisterComponent},
   {path:'header', component: HeaderComponent},
-  {path:'footer', component: FooterComponent}
+  {path:'footer', component: FooterComponent},
+  {path:'club-event', component: ClubEventComponent}
 ];
 
 @NgModule({
@@ -24,4 +26,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routingComponents = [HomeComponent, AboutUsComponent, EventsComponent, TeamComponent, RegisterComponent, HeaderComponent, FooterComponent]
+export const routingComponents = [HomeComponent, AboutUsComponent, EventsComponent, TeamComponent, RegisterComponent, HeaderComponent, FooterComponent, ClubEventComponent]

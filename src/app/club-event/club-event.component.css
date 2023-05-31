@@ -1,0 +1,42 @@
+/* results */
+.listing {
+  background: #205293;
+  border-radius: 30px;
+  padding-bottom: 30px;
+
+}
+.listing-heading {
+  color: #ffffff;
+  padding: 10px 20px 0 20px;
+  font-family: 'Inter', sans-serif;
+}
+.listing-photo {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px 30px 0 0;
+}
+.listing-location {
+  color: #ffffff;
+  padding: 10px 20px 20px 20px;
+  font-family: 'Inter', sans-serif;
+}
+.listing-location::before {
+  content: url("/assets/IMAGE-7313.JPG") / "";
+}
+
+section.listing a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+section.listing a::after {
+  content: "\203A";
+  margin-left: 5px;
+}
+
+/* 
+ font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+ */
