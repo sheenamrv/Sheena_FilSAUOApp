@@ -1,6 +1,7 @@
-<section class="listing">
-  <img class="listing-photo" [src]="clubEvent.photo" alt="Exterior photo of {{clubEvent.name}}">
-  <h2 class="listing-heading">{{ clubEvent.name }}</h2>
-  <p class="listing-location">{{ clubEvent.description}}</p>
-  <p class="listing-location"> <b>Date:</b> {{clubEvent.eventDate }}</p>
+<section class="event-card">
+  <img class="photo" [src]="clubEvent.photo" alt="Exterior photo of {{clubEvent.name}}">
+  <h2 class="name">{{ clubEvent.name }}</h2>
+  <p class="text">{{ clubEvent.description}}</p>
+  <p class="text"> <b>Date:</b> {{clubEvent.eventDate }}</p>
+  <a class = "text" [routerLink]="['/details', clubEvent.id]">Learn More</a>
 </section>

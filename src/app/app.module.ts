@@ -5,7 +5,8 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ClubEventComponent } from './club-event/club-event.component';
+// import { ClubEventComponent } from './club-event/club-event.component';
+
 // import { ClubEventComponent } from './club-event/club-event.component';
 // import { HomeComponent } from './home/home.component';
 // import { HeaderComponent } from './header/header.component';
