@@ -5,6 +5,7 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EventFormComponent } from './event-form/event-form.component';
 // import { ClubEventComponent } from './club-event/club-event.component';
 
 // import { ClubEventComponent } from './club-event/club-event.component';
@@ -19,7 +20,8 @@ import { AppComponent } from './app.component';
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents
+    routingComponents,
+    EventFormComponent
   ],
   imports: [
     BrowserModule,
